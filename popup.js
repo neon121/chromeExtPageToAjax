@@ -1,22 +1,4 @@
-/*
-Пример содержимого index.php:
-*****************************************************
-<?php
-$fname = '1.html';
-if (count($_POST)) {
-    $html = $_POST['html'];
-    $html = base64_decode($_POST['html']);
-    $html = urldecode($html);
-    $file = fopen($fname, 'w');
-    fwrite($file, $html);
-}
-else echo file_get_contents($fname);
-*****************************************************
-
-в папке с index.php у apache должны быть права на запись
-
- */
-var url = 'https://myvds.tk/scripts/ajax/index.php';
+var url = 'http://path/to/ajax.php';
 
 $(function() {
     $('#start').click(function() {
