@@ -1,4 +1,4 @@
-<h1>Пример</h1>
+<h1>Пример работы</h1>
 Загружать так:<br/>
 - в адресной строке Chrome - <code>chrome://extension</code><br/>
 - Developer mode должен быть включен<br/>
@@ -21,5 +21,5 @@ if (count($_POST)) {<br/>
 }<br/>
 else echo file_get_contents($fname);<br/>
 </pre>
-
+ 
 в папке с <code>ajax.php</code> у веб-сервера должны быть права на запись
